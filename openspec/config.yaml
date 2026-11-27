@@ -1,0 +1,15 @@
+schema: spec-driven
+context: |
+  Project: 【待老师公布：项目名称】
+  Tech stack: Python 3.12, FastAPI, SQLite, Pydantic v2（按题目要求修改）
+  Testing: pytest + httpx + pytest-asyncio
+  Architecture: Three-layer (routers -> services -> repositories)
+  Language: All UI text, documentation, and docstrings in Chinese
+rules:
+  proposal:
+    - Always include "## Why" and "## What Changes" sections
+  specs:
+    - Use Given/When/Then format for scenarios
+    - Every requirement must specify Priority (P0/P1/P2)
+  tasks:
+    - Break tasks into small verifiable chunks with clear acceptance criteria
